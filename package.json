@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.32.0",
-    "sharp": "^0.33.4"
+    "sharp": "^0.33.4",
+    "unique-string": "^3.0.0"
   }
 }
