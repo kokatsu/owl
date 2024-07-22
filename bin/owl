@@ -1,11 +1,3 @@
 #!/bin/sh
 
-owl() {
-  root_dir=$(
-    cd "$(dirname "$0")" && pwd
-  )
-  script_name="${root_dir}/../scripts/bun"
-  $script_name "$@"
-}
-
-owl "$@"
+exec "$(dirname "$0")"/../scripts/owl.sh "$@"
