@@ -1,7 +1,6 @@
 {
   "name": "owl",
-  "module": "src/index.ts",
-  "type": "module",
+  "license": "MIT",
   "scripts": {
     "lint": "biome check .",
     "lint:fix": "biome check . --write"
