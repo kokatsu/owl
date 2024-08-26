@@ -17,6 +17,7 @@
     "typescript": "^5.5.2"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "drizzle-orm": "^0.33.0",
     "sharp": "^0.33.5",
     "unique-string": "^3.0.0"
