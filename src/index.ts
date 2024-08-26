@@ -1,4 +1,5 @@
 import { parseArgs } from 'node:util';
+import { config } from 'dotenv';
 
 import { convert } from './convert';
 import { date } from './date';
@@ -6,6 +7,13 @@ import { saved } from './saved';
 
 export default class Owl {
   run = async () => {
+    const { parsed, error } = config({ path: `${import.meta.dir}/../.env` });
+    if (error) {
+      throw error;
+    }
+
+    process.env = { ...process.env, ...parsed };
+
     const { positionals } = parseArgs({
       args: Bun.argv.slice(2),
       strict: true,
