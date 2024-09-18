@@ -3,34 +3,21 @@
 # top-most EditorConfig file
 root = true
 
-[*.{js,ts}]
+[*]
 charset = utf-8
 end_of_line = lf
 indent_style = space
-indent_size = 2
 insert_final_newline = true
 trim_trailing_whitespace = true
+
+[*.{js,ts}]
+indent_size = 2
 
 [*.{json,jsonc}]
-charset = utf-8
-end_of_line = lf
-indent_style = space
 indent_size = 2
-insert_final_newline = true
-trim_trailing_whitespace = true
 
 [*.yml]
-charset = utf-8
-end_of_line = lf
-indent_style = space
 indent_size = 2
-insert_final_newline = true
-trim_trailing_whitespace = true
 
 [*.sh]
-charset = utf-8
-end_of_line = lf
-indent_style = space
 indent_size = 2
-insert_final_newline = true
-trim_trailing_whitespace = true
