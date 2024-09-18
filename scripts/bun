@@ -1,6 +1,0 @@
-#!/usr/bin/env bun
-
-import Owl from '../src/index.ts';
-
-const owl = new Owl();
-await owl.run();

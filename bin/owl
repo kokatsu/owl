@@ -1,3 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bun
 
-exec "$(dirname "$0")"/../scripts/owl.sh "$@"
+import Owl from '../src/index.ts';
+
+const owl = new Owl();
+await owl.run();
