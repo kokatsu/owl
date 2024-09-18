@@ -10,7 +10,6 @@
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
     "@types/bun": "latest",
-    "drizzle-kit": "^0.24.2",
     "lefthook": "1.7.15"
   },
   "peerDependencies": {
@@ -18,7 +17,6 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "drizzle-orm": "^0.33.0",
     "sharp": "^0.33.5",
     "unique-string": "^3.0.0"
   }
