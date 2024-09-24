@@ -3,6 +3,7 @@ import { config } from 'dotenv';
 
 import { convert } from './convert';
 import { date } from './date';
+import { hoot } from './hoot';
 
 export default class Owl {
   run = async () => {
@@ -26,8 +27,11 @@ export default class Owl {
       case 'png':
         await convert(positionals.at(1), 'png');
         break;
+      case 'hoot':
+        hoot();
+        break;
       default:
-        console.log('Hello via Bun!');
+        hoot();
     }
   };
 }
