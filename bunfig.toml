@@ -4,5 +4,7 @@ save = true
 
 [test]
 coverage = true
-coverageThreshold = 0.9
 coverageReporter = ["text", "lcov"]
+coverageThreshold = 0.9
+preload = ["./setup.ts"]
+root = "./test"
