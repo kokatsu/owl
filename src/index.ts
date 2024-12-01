@@ -4,6 +4,7 @@ import { config } from 'dotenv';
 import { convert } from './convert';
 import { date } from './date';
 import { hoot } from './hoot';
+import { ulid } from './ulid';
 
 export default class Owl {
   run = async () => {
@@ -29,6 +30,9 @@ export default class Owl {
         break;
       case 'hoot':
         hoot();
+        break;
+      case 'ulid':
+        ulid();
         break;
       default:
         hoot();
