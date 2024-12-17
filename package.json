@@ -20,5 +20,5 @@
     "sharp": "^0.33.5",
     "ulidx": "^2.4.1"
   },
-  "packageManager": "bun@1.1.38"
+  "packageManager": "bun@1.1.39"
 }
