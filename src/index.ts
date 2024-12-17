@@ -5,6 +5,7 @@ import { convert } from './convert';
 import { date } from './date';
 import { hoot } from './hoot';
 import { ulid } from './ulid';
+import { uuid } from './uuid';
 
 export default class Owl {
   run = async () => {
@@ -33,6 +34,9 @@ export default class Owl {
         break;
       case 'ulid':
         ulid();
+        break;
+      case 'uuid':
+        uuid();
         break;
       default:
         hoot();
