@@ -19,6 +19,5 @@
     "dotenv": "^16.4.7",
     "sharp": "^0.34.0",
     "ulidx": "^2.4.1"
-  },
-  "packageManager": "bun@1.1.39"
+  }
 }
