@@ -9,7 +9,7 @@
     "@biomejs/biome": "^2.1.2",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@secretlint/secretlint-rule-preset-recommend": "^10.2.1",
+    "@secretlint/secretlint-rule-preset-recommend": "^11.0.2",
     "@types/bun": "^1.2.19",
     "lefthook": "^1.12.2",
     "secretlint": "^10.2.1"
